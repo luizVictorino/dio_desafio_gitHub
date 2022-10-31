@@ -1,0 +1,54 @@
+cd		- navegação entre as pastas do diretorio
+dir		- lista todas as pastas dentro do diretorio
+mkdir		- ceia uma nova pasta
+del / rmdir	- del (deleta apenas arquivos), rmdir /s /q (exlui o repositorio)
+echo 		- hello > hello.txt
+del		- deleta apenas arquivos
+
+atualização git -- git update-git-for-windows
+
+Criação da pasta do GitHub no desktop
+ssh-keygen -t ed25519 -C <e-mail GitHub>
+
+Visualizar o conteúdo da chave 
+cat id_ed25519.pub 
+
+pwd - mostra o caminho completo da pasta aberta
+
+inicialização do sshAgent (responsavel pela manipulação das chaves)
+eval $(ssh-agent -s)
+
+ssh-add id_ed25519 - passar chave privada, utilizada para descriptografar a msg
+
+
+CONFIGRAÇÃO GIT INIT NO TERMINAL
+
+git config --global user. email "<e-mail>"
+git config --global user.name
+
+$ git add . - Adiciona todos os arquivos editados ou criados dentro do repositório 
+
+$ git commit -m "informações do commit" - inclue um commit para o arquivo criado ou editado. 
+
+$ git push origin main - envia todos os commits criados local para a nuvem
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
